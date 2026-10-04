@@ -1,0 +1,25 @@
+.tabbtn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #333333;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    margin: 5px;
+    height: 38px;
+    min-width: 100px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.tabbtn:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+    transform: translateY(-1px);
+}
+
+.tabbtn:active {
+    transform: translateY(0);
+}
